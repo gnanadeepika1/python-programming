@@ -1,0 +1,10 @@
+l=[1,2,3,4,5]
+asc=sorted(l)
+dsc=asc[::-1]
+n=int(input("enter the max:"))
+m=int(input("enter the min"))
+print("largest",dsc[n-1])
+print("smallest",asc[m-1])
+print("sum:",asc[m-1]+dsc[n-1])
+print("differnce:",dsc[n-1]-asc[m-1])
+print("product:",dsc[n-1]*asc[m-1])
